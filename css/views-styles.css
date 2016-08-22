@@ -1,0 +1,119 @@
+/**
+ * @file
+ * Views Styling
+ */
+/*
+ * Views' admin tabs
+ *
+ * The views admin tabs use the same classes as the secondary tabs. We prevent
+ * some of our tab styling from bleeding into (and breaking) the Views admin
+ * pages. If your sub-theme isn't used for admin pages, you can remove this
+ * entire section.
+ */
+/* line 18, ../sass/views-styles.scss */
+.views-displays .secondary li {
+  float: none;
+  margin: 0 6px 0;
+}
+/* line 24, ../sass/views-styles.scss */
+.views-displays .secondary a:link,
+.views-displays .secondary a:visited {
+  text-shadow: none;
+  padding: 2px 7px 3px;
+}
+/* line 29, ../sass/views-styles.scss */
+.views-displays .secondary .open > a {
+  -webkit-border-radius: 7px 7px 0 0;
+  -moz-border-radius: 7px 7px 0 0;
+  -ms-border-radius: 7px 7px 0 0;
+  -o-border-radius: 7px 7px 0 0;
+  border-radius: 7px 7px 0 0;
+}
+/* line 31, ../sass/views-styles.scss */
+.views-displays .secondary .open > a:hover {
+  color: #333;
+}
+/* line 36, ../sass/views-styles.scss */
+.views-displays .secondary .action-list li {
+  margin: 0;
+}
+/* line 38, ../sass/views-styles.scss */
+.views-displays .secondary .action-list li:first-child {
+  -webkit-border-radius: 0 7px 0 0;
+  -moz-border-radius: 0 7px 0 0;
+  -ms-border-radius: 0 7px 0 0;
+  -o-border-radius: 0 7px 0 0;
+  border-radius: 0 7px 0 0;
+}
+/* line 41, ../sass/views-styles.scss */
+.views-displays .secondary .action-list li:last-child {
+  -webkit-border-radius: 0 0 7px 7px;
+  -moz-border-radius: 0 0 7px 7px;
+  -ms-border-radius: 0 0 7px 7px;
+  -o-border-radius: 0 0 7px 7px;
+  border-radius: 0 0 7px 7px;
+}
+
+/* line 49, ../sass/views-styles.scss */
+.page-newsroom-videos h1 {
+  background: #094C8A;
+  color: #fff;
+  font-size: 20px;
+  padding: 0 10px;
+  margin-bottom: 32px;
+}
+
+/* line 59, ../sass/views-styles.scss */
+.view-videos .view-footer a, .view-videos .field-name-node-link a {
+  color: #ea3941;
+  text-transform: uppercase;
+}
+
+/* line 70, ../sass/views-styles.scss */
+.page-newsroom-podcasts h1 {
+  background: #094C8A;
+  color: #fff;
+  font-size: 20px;
+  padding: 0 10px;
+  margin-bottom: 32px;
+}
+
+/* line 79, ../sass/views-styles.scss */
+.view-audio .views-row {
+  margin-bottom: 64px;
+}
+/* line 83, ../sass/views-styles.scss */
+.view-audio .views-field-title h2 {
+  margin: 0;
+}
+/* line 88, ../sass/views-styles.scss */
+.view-audio .views-field-field_date,
+.view-audio .views-field-field_news_categories {
+  float: left;
+  border-right: 1px solid gray;
+}
+/* line 96, ../sass/views-styles.scss */
+.view-audio .views-field-field_date,
+.view-audio .views-field-field_news_categories,
+.view-audio .views-field-field_source {
+  font-size: 14px;
+  padding: 0 5px;
+  margin-bottom: 20px;
+}
+/* line 102, ../sass/views-styles.scss */
+.view-audio .views-field-field_date {
+  padding-left: 0;
+}
+/* line 106, ../sass/views-styles.scss */
+.view-audio .views-field-field_news_categories {
+  margin-right: 5px;
+}
+/* line 110, ../sass/views-styles.scss */
+.view-audio .views-field-field_audio {
+  margin-bottom: 1.25em;
+}
+/* line 114, ../sass/views-styles.scss */
+.view-audio .view-footer a {
+  color: #ea3941;
+  text-transform: uppercase;
+}

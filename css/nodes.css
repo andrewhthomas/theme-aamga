@@ -1,0 +1,149 @@
+/**
+ * @file
+ * Node Styling
+ *
+ * Style anything that isn't in the $content variable.
+ */
+/* line 11, ../sass/nodes.scss */
+.node {
+  /* Node wrapper */
+}
+/* line 13, ../sass/nodes.scss */
+.preview .node {
+  /* Preview of the content before submitting new or updated content */
+  /* background-color: #ffffea; */
+  /* Drupal core uses a #ffffea background */
+}
+/* line 17, ../sass/nodes.scss */
+.node .node-title {
+  /* Node title */
+}
+/* line 20, ../sass/nodes.scss */
+.node .user-picture {
+  /* The picture of the node author */
+}
+/* line 23, ../sass/nodes.scss */
+.node .submitted {
+  /* The "posted by" information */
+}
+/* line 26, ../sass/nodes.scss */
+.node .content {
+  /* Node's content wrapper */
+}
+/* line 29, ../sass/nodes.scss */
+.node ul.links {
+  /* Node links. See also the ul.links declaration in the pages.css. */
+}
+/* line 31, ../sass/nodes.scss */
+.node ul.links li {
+  margin-left: 1.5em;
+}
+
+/* line 38, ../sass/nodes.scss */
+.node-promoted {
+  /* A node that has been promoted to the front page */
+}
+
+/* line 41, ../sass/nodes.scss */
+.node-sticky {
+  /* A sticky node (displayed before others in a list) */
+}
+
+/* line 44, ../sass/nodes.scss */
+.node-by-viewer {
+  /* A node created by the current user */
+}
+
+/* line 47, ../sass/nodes.scss */
+.node-teaser {
+  /* A node displayed as teaser */
+  margin-bottom: 64px !important;
+}
+
+/*
+ * All nodes are given a node-FOO class that describes the type of content that
+ * it is. If you create a new content type called "my-custom-type", it will
+ * receive a "node-my-custom-type" class.
+ */
+/* line 57, ../sass/nodes.scss */
+.node-page {
+  /* Page content node */
+}
+
+/* line 60, ../sass/nodes.scss */
+.node-article {
+  /* Article content node */
+}
+
+/* line 63, ../sass/nodes.scss */
+.node-unpublished {
+  /* Unpublished nodes */
+  /* background-color: #fff4f4; */
+  /* Drupal core uses a #fff4f4 background */
+}
+/* line 66, ../sass/nodes.scss */
+.node-unpublished p.unpublished {
+  /* The word "Unpublished" displayed underneath the content. */
+  height: 0;
+  overflow: visible;
+  color: #d8d8d8;
+  font-size: 75px;
+  line-height: 1;
+  font-family: Impact, "Arial Narrow", Helvetica, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+/* line 72, ../sass/nodes.scss */
+.front h1.title {
+  display: none;
+}
+
+/* line 77, ../sass/nodes.scss */
+.front .node {
+  margin-top: 0 !important;
+}
+
+/* line 81, ../sass/nodes.scss */
+a.th {
+  display: inline-block;
+}
+
+/* line 90, ../sass/nodes.scss */
+.node-audio .field-name-field-image, .node-video .field-name-field-image, .node-article .field-name-field-image {
+  margin-bottom: 20px;
+}
+/* line 94, ../sass/nodes.scss */
+.node-audio .field-name-field-date,
+.node-audio .field-name-field-news-categories, .node-video .field-name-field-date,
+.node-video .field-name-field-news-categories, .node-article .field-name-field-date,
+.node-article .field-name-field-news-categories {
+  float: left;
+  border-right: 1px solid gray;
+}
+/* line 101, ../sass/nodes.scss */
+.node-audio .field-name-field-date,
+.node-audio .field-name-field-news-categories,
+.node-audio .field-name-field-source, .node-video .field-name-field-date,
+.node-video .field-name-field-news-categories,
+.node-video .field-name-field-source, .node-article .field-name-field-date,
+.node-article .field-name-field-news-categories,
+.node-article .field-name-field-source {
+  font-size: 14px;
+  padding: 0 5px;
+  margin-bottom: 20px;
+}
+/* line 109, ../sass/nodes.scss */
+.node-audio .field-name-field-date, .node-video .field-name-field-date, .node-article .field-name-field-date {
+  padding-left: 0;
+}
+/* line 113, ../sass/nodes.scss */
+.node-audio .field-name-field-news-categories, .node-video .field-name-field-news-categories, .node-article .field-name-field-news-categories {
+  margin-right: 5px;
+}
+/* line 117, ../sass/nodes.scss */
+.node-audio .field-name-field-audio, .node-audio .field-name-field-video, .node-video .field-name-field-audio, .node-video .field-name-field-video, .node-article .field-name-field-audio, .node-article .field-name-field-video {
+  margin-bottom: 20px;
+}
